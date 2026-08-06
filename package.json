@@ -1,0 +1,24 @@
+{
+  "name": "personal-portfolio-website",
+  "version": "1.0.0",
+  "description": "Full-Stack Personal Portfolio Website showcasing engineering projects, technical skills, DSA achievements, and contact APIs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "keywords": [
+    "portfolio",
+    "fullstack",
+    "developer",
+    "express",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Terli Jogiswara Prabhas",
+  "license": "MIT"
+}
