@@ -13,7 +13,7 @@ Full-stack Personal Portfolio Website created for **Terli Jogiswara Prabhas** (B
 - **Interactive Typing Hero**: Hero header featuring typing text animation, quick contact CTAs, and social links (GitHub, LinkedIn, Email).
 - **Academic Timeline**: Highlights education history at NIT Agartala (CGPA: 8.23) and Sri Chaitanya Junior College (93.7%).
 - **Projects Showcase**: Interactive cards detailing tech stacks, features, GitHub repository links, and live demo modals.
-- **Skills & DSA Breakdown**: Highlighting 150+ LeetCode problems solved across Arrays, Trees, Graphs, and DP with topic breakdown.
+- **Skills & DSA Breakdown**: Highlighting 200+ LeetCode problems solved (targeting 300+) across Arrays, Trees, Graphs, and DP with topic breakdown.
 - **Certifications Showcase**: Features verified certifications for DSA, Full Stack Web Development, and Full Stack Web with Generative AI.
 - **Integrated Contact API**: Functional contact form powered by backend Express `/api/contact` route generating ticket IDs.
 

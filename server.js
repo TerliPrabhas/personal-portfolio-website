@@ -28,7 +28,7 @@ const profileData = {
     coursework: ["Data Structures & Algorithms", "Object-Oriented Programming", "DBMS", "Operating Systems", "Computer Networks"]
   },
   dsaStats: {
-    leetcodeSolved: "150+",
+    leetcodeSolved: "200+ (Targeting 300+)",
     topics: ["Arrays", "Linked Lists", "Trees", "Graphs", "Dynamic Programming", "Recursion", "Binary Search"]
   },
   certifications: [
