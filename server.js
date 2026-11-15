@@ -116,14 +116,14 @@ const projectsData = [
     category: "Full-Stack Web Development & GenAI",
     date: "2026",
     tech: ["HTML5", "CSS Variables", "JavaScript", "Node.js", "Express.js", "MongoDB", "Prabhas AI Clone"],
-    description: "Responsive full-stack portfolio showcasing 150+ DSA problem solutions, NIT Agartala credentials, interactive project cards, typing hero effects, contact API with XSS prevention, and the Prabhas AI Clone Career Assistant & Recruiter Job Fit Evaluator.",
+    description: "Responsive full-stack portfolio showcasing 250+ DSA problem solutions, NIT Agartala credentials, interactive project cards, typing hero effects, contact API with XSS prevention, and the Prabhas AI Clone Career Assistant & Recruiter Job Fit Evaluator.",
     github: "https://github.com/TerliPrabhas/personal-portfolio-website",
     demoUrl: "http://localhost:3003",
     featured: true,
     highlights: [
       "Prabhas AI Clone chatbot answering in-depth recruiter inquiries about background and architecture",
       "AI Job Fit Evaluator calculating compatibility percentages against job descriptions",
-      "Interactive LeetCode 150+ DSA problem catalog with time/space complexity and intuition notes",
+      "Interactive LeetCode 250+ DSA problem catalog with time/space complexity and intuition notes",
       "Express contact API with input validation, MongoDB logging, and ticket confirmation"
     ]
   }
