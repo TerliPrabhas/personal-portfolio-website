@@ -1,47 +1,39 @@
-# 🚀 Terli Jogiswara Prabhas — Full-Stack Personal Portfolio Website
+# Terli Jogiswara Prabhas | Full-Stack Developer Portfolio with GenAI Career Chatbot
 
-![Node.js](https://img.shields.io/badge/Node.js-v18+-green.svg)
-![Express](https://img.shields.io/badge/Express-v4.19-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-purple.svg)
-
-Full-stack Personal Portfolio Website created for **Terli Jogiswara Prabhas** (B.Tech Computer Science & Engineering @ NIT Agartala). Engineered using **HTML5**, **CSS3**, **JavaScript (ES6+)**, **Node.js**, and **Express.js**.
+> **Developer & Systems Architect:** Terli Jogiswara Prabhas  
+> **Degree:** B.Tech in Computer Science and Engineering, National Institute of Technology, Agartala (NIT Agartala, 2023–2027)  
+> **Academic Standing:** CGPA 8.23  
+> **Contact:** [prabhasterli@gmail.com](mailto:prabhasterli@gmail.com) | +91-8074811487  
+> **Profiles:** [GitHub](https://github.com/TerliPrabhas) | [LinkedIn](https://linkedin.com/in/TerliPrabhas)
 
 ---
 
-## 🌟 Key Features
+## 🌟 Executive Overview
+This portfolio is an interactive, production-grade full-stack web platform built using **HTML5, CSS3, JavaScript, Node.js, Express.js, MongoDB, and integrated Generative AI**.
 
-- **Interactive Typing Hero**: Hero header featuring typing text animation, quick contact CTAs, and social links (GitHub, LinkedIn, Email).
-- **Academic Timeline**: Highlights education history at NIT Agartala (CGPA: 8.23) and Sri Chaitanya Junior College (93.7%).
-- **Projects Showcase**: Interactive cards detailing tech stacks, features, GitHub repository links, and live demo modals.
-- **Skills & DSA Breakdown**: Highlighting 200+ LeetCode problems solved (targeting 300+) across Arrays, Trees, Graphs, and DP with topic breakdown.
-- **Certifications Showcase**: Features verified certifications for DSA, Full Stack Web Development, and Full Stack Web with Generative AI.
-- **Integrated Contact API**: Functional contact form powered by backend Express `/api/contact` route generating ticket IDs.
+It comprehensively showcases:
+1. **Academic Credentials & Coursework:** NIT Agartala (CGPA: 8.23), Sri Chaitanya Junior College (93.7%), Sri Chaitanya Techno School (10 CGPA), Data Structures & Algorithms, OOP, DBMS, OS, Computer Networks.
+2. **Competitive Programming Mastery:** Catalog of **250+ solved LeetCode DSA problems** with interactive topic filters, difficulty levels, $O(n)$ / $O(n \log n)$ time and space complexity analysis, and algorithmic intuition notes.
+3. **Featured Production Projects:** Live interactive showcases of the **AuraStore E-Commerce Web App** and the **PulseStream 60 FPS Web Music Player**.
+4. **Prabhas AI Clone & Career Chatbot:** Conversational AI agent answering questions regarding Prabhas's background, system designs, and technical competencies.
+5. **AI Recruiter Job Fit Evaluator:** Real-time resume matcher evaluating compatibility against any recruiter job description.
+6. **Secure Contact Backend:** Express.js REST API with input validation, XSS prevention, and message ticket generation.
 
 ---
 
 ## 🛠️ Tech Stack
-
-- **Frontend**: HTML5, Vanilla CSS3 (Custom Design System, Glassmorphic Cards, Glow Animations), ES6+ JavaScript.
-- **Backend**: Node.js, Express.js REST API.
-
----
-
-## 🚀 API Endpoints
-
-| Method | Endpoint | Description |
-| :--- | :--- | :--- |
-| `GET` | `/api/profile` | Returns full profile info, academic credentials, and DSA stats |
-| `GET` | `/api/projects` | Returns project portfolio metadata |
-| `POST` | `/api/contact` | Handles contact form submissions & returns confirmation ticket ID |
+- **Frontend**: HTML5, CSS3 Variables, Glassmorphism, Modern ES6+ JavaScript, FontAwesome 6, Google Fonts
+- **Backend**: Node.js, Express.js, CORS, Dotenv
+- **Database**: MongoDB (Mongoose Schema: Contact) + In-Memory fallback store
+- **GenAI**: Prabhas AI Clone Career Assistant & AI Job Fit Evaluator
 
 ---
 
-## ⚡ Quick Start & Local Setup
+## ⚡ Quick Start & Running Locally
 
-1. **Clone Repository**:
+1. **Navigate to project directory**:
    ```bash
-   git clone https://github.com/TerliPrabhas/personal-portfolio-website.git
-   cd personal-portfolio-website
+   cd "C:\Users\prabh\OneDrive\Desktop\3)Personal Portfolio"
    ```
 
 2. **Install Dependencies**:
@@ -49,19 +41,22 @@ Full-stack Personal Portfolio Website created for **Terli Jogiswara Prabhas** (B
    npm install
    ```
 
-3. **Start Express Server**:
+3. **Launch Server**:
    ```bash
-   npm start
+   node server.js
    ```
 
-4. **View Portfolio**:
-   Open `http://localhost:3003` in your browser.
+4. **Open in Browser**:
+   Visit [http://localhost:3003](http://localhost:3003)
 
 ---
 
-## 🧑‍💻 Author
+## ☁️ Deployment Instructions
 
-Developed by **Terli Jogiswara Prabhas**  
-- **GitHub**: [@TerliPrabhas](https://github.com/TerliPrabhas)  
-- **LinkedIn**: [TerliPrabhas](https://linkedin.com/in/TerliPrabhas)  
-- **Email**: [prabhasterli@gmail.com](mailto:prabhasterli@gmail.com)
+### Vercel Deployment (One-Click)
+1. Run `npx vercel` inside this folder.
+2. The bundled `vercel.json` deploys the full-stack serverless portfolio immediately.
+
+### Render Deployment
+1. Connect this repository to [Render.com](https://render.com).
+2. The bundled `render.yaml` automatically configures the environment and start commands.

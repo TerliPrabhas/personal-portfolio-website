@@ -3,92 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terli Jogiswara Prabhas | Full Stack Web Developer & CSE @ NIT Agartala</title>
+  <title>Terli Jogiswara Prabhas | Full-Stack Software Engineer & CSE @ NIT Agartala</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Ambient Glow Effects -->
-  <div class="bg-glow glow-1"></div>
-  <div class="bg-glow glow-2"></div>
+  <!-- Background Ambient Glow Orbs -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
 
-  <!-- Header Navigation -->
+  <!-- Header / Navigation Bar -->
   <header class="navbar">
     <div class="nav-container">
       <a href="#" class="logo">
-        <span class="logo-accent">&lt;/&gt;</span> Prabhas
+        <span class="logo-bracket">&lt;</span><span class="logo-name">Prabhas</span><span class="logo-bracket">/&gt;</span>
       </a>
 
       <nav class="nav-links">
         <a href="#about"><i class="fa-solid fa-user"></i> About</a>
         <a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a>
         <a href="#projects"><i class="fa-solid fa-laptop-code"></i> Projects</a>
-        <a href="#skills"><i class="fa-solid fa-code"></i> Skills & DSA</a>
-        <a href="#certifications"><i class="fa-solid fa-certificate"></i> Certifications</a>
-        <a href="#contact" class="btn-contact-nav">Contact Me</a>
+        <a href="#dsa"><i class="fa-solid fa-code"></i> DSA (250+)</a>
+        <a href="#ai-recruiter"><i class="fa-solid fa-wand-magic-sparkles"></i> AI Recruiter Fit</a>
+        <a href="#contact" class="btn-contact-nav">Get In Touch</a>
       </nav>
 
-      <button class="mobile-menu-btn" id="mobileMenuBtn">
-        <i class="fa-solid fa-bars"></i>
-      </button>
+      <div class="nav-actions">
+        <!-- Floating Prabhas AI Trigger -->
+        <button class="ai-clone-btn" id="openAiChatBtn" title="Chat with Prabhas AI Clone">
+          <i class="fa-solid fa-robot"></i>
+          <span>Ask My AI Clone</span>
+          <span class="pulse-indicator"></span>
+        </button>
+      </div>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero" id="home">
     <div class="hero-container">
       <div class="hero-badge">
-        <span class="pulse-dot"></span> B.Tech Computer Science & Engineering @ NIT Agartala
+        <span class="pulse-dot"></span> B.Tech CSE @ National Institute of Technology, Agartala &bull; CGPA 8.23
       </div>
-      <h1 class="hero-name">Terli Jogiswara Prabhas</h1>
-      <h2 class="hero-subtitle">I build <span class="typing-effect" id="typingEffect"></span></h2>
-      <p class="hero-description">
-        Passionate Full-Stack Developer specializing in Node.js, Express, MongoDB, and modern web architectures. Strong foundation in Data Structures & Algorithms, Object-Oriented Design, and Software Engineering principles.
+
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Terli Jogiswara Prabhas</span>
+      </h1>
+
+      <h2 class="hero-subtitle">
+        I engineer <span class="typing-text" id="typingElement"></span>
+      </h2>
+
+      <p class="hero-desc">
+        Full-Stack Software Engineer specializing in modern MERN architectures, optimal algorithmic problem solving (<strong>250+ LeetCode Solved</strong>), and production-grade Generative AI integration.
       </p>
 
-      <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-briefcase"></i> View Projects</a>
-        <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-envelope"></i> Get In Touch</a>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-briefcase"></i> View Featured Projects</a>
+        <button class="btn btn-secondary" id="heroAiChatBtn"><i class="fa-solid fa-robot"></i> Talk with My AI Clone</button>
+        <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-envelope"></i> Contact Me</a>
       </div>
 
-      <div class="social-links">
-        <a href="https://github.com/TerliPrabhas" target="_blank" title="GitHub Profile"><i class="fa-brands fa-github"></i> GitHub</a>
-        <a href="https://linkedin.com/in/TerliPrabhas" target="_blank" title="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-        <a href="mailto:prabhasterli@gmail.com" title="Send Email"><i class="fa-solid fa-at"></i> Email</a>
-        <a href="tel:+918074811487" title="Call"><i class="fa-solid fa-phone"></i> +91-8074811487</a>
+      <div class="hero-socials">
+        <a href="https://github.com/TerliPrabhas" target="_blank" class="social-tag"><i class="fa-brands fa-github"></i> github.com/TerliPrabhas</a>
+        <a href="https://linkedin.com/in/TerliPrabhas" target="_blank" class="social-tag"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href="mailto:prabhasterli@gmail.com" class="social-tag"><i class="fa-solid fa-at"></i> prabhasterli@gmail.com</a>
+        <a href="tel:+918074811487" class="social-tag"><i class="fa-solid fa-phone"></i> +91-8074811487</a>
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- Key Metrics Stats Bar -->
+  <section class="stats-bar">
+    <div class="stats-container">
+      <div class="stat-card">
+        <div class="stat-num">8.23</div>
+        <div class="stat-label">B.Tech CSE CGPA (NIT Agartala)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">250+</div>
+        <div class="stat-label">LeetCode DSA Problems Solved</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">3</div>
+        <div class="stat-label">Full-Stack Production Deployments</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">GenAI & REST API Integration</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Academic Credentials Section -->
   <section class="section" id="about">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">BACKGROUND</span>
-        <h2>About Me</h2>
+    <div class="container">
+      <div class="section-heading-wrap">
+        <span class="section-tag">ENGINEERING PROFILE</span>
+        <h2>About & Core Engineering Disciplines</h2>
+        <p class="section-desc">Combining theoretical computer science foundations with high-velocity full-stack software development.</p>
       </div>
 
       <div class="about-grid">
         <div class="about-card">
-          <i class="fa-solid fa-graduation-cap card-icon"></i>
-          <h3>NIT Agartala CSE</h3>
-          <p>Pursuing B.Tech in Computer Science and Engineering (2023–2027) with a CGPA of <strong>8.23</strong>.</p>
+          <div class="about-icon"><i class="fa-solid fa-layer-group"></i></div>
+          <h3>Full-Stack Architecture</h3>
+          <p>Architecting end-to-end web platforms using Node.js, Express.js, React components, RESTful APIs, and MongoDB with secure tokenization and input validation.</p>
         </div>
 
         <div class="about-card">
-          <i class="fa-solid fa-layer-group card-icon"></i>
-          <h3>Full-Stack Engineering</h3>
-          <p>Architecting web solutions using JavaScript, Node.js, Express.js, MongoDB, HTML5, CSS3, and RESTful APIs.</p>
+          <div class="about-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>Algorithmic Mastery</h3>
+          <p>Rigorous problem solver with 250+ LeetCode DSA solutions covering graph cycle detection, binary trees, dynamic programming, and binary search with optimal time/space complexity.</p>
         </div>
 
         <div class="about-card">
-          <i class="fa-solid fa-brain card-icon"></i>
-          <h3>Problem Solver</h3>
-          <p>Solved 200+ DSA problems on LeetCode (targeting 300+) covering Arrays, Trees, Graphs, and Dynamic Programming with optimal time/space complexity.</p>
+          <div class="about-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>GenAI Systems Integration</h3>
+          <p>Integrating generative conversational agents, real-time semantic search, and AI-driven recommendations natively into production web interfaces.</p>
         </div>
       </div>
     </div>
@@ -96,257 +133,237 @@
 
   <!-- Education Timeline Section -->
   <section class="section bg-surface" id="education">
-    <div class="section-container">
-      <div class="section-header">
+    <div class="container">
+      <div class="section-heading-wrap">
         <span class="section-tag">ACADEMICS</span>
-        <h2>Education</h2>
+        <h2>Education & Credentials</h2>
       </div>
 
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <span class="timeline-date">2023 – 2027</span>
-            <h3>National Institute of Technology, Agartala (NITA)</h3>
-            <h4>B.Tech in Computer Science and Engineering</h4>
-            <span class="score-badge">CGPA : 8.23</span>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <span class="timeline-date">2021 – 2023</span>
-            <h3>Sri Chaitanya Junior College, Vijayawada</h3>
-            <h4>Intermediate Education (Andhra Pradesh Board)</h4>
-            <span class="score-badge">Percentage : 93.7%</span>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <span class="timeline-date">2020 – 2021</span>
-            <h3>Sri Chaitanya Techno School, Vijayawada</h3>
-            <h4>Secondary School Education (AP Board)</h4>
-            <span class="score-badge">CGPA : 10</span>
-          </div>
-        </div>
+      <div class="timeline" id="educationTimeline">
+        <!-- Timeline items dynamically rendered from profile API -->
       </div>
     </div>
   </section>
 
-  <!-- Projects Section -->
+  <!-- Featured Projects Showcase Section -->
   <section class="section" id="projects">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">PORTFOLIO</span>
-        <h2>Featured Projects</h2>
+    <div class="container">
+      <div class="section-heading-wrap">
+        <span class="section-tag">PORTFOLIO WORK</span>
+        <h2>Featured Landmark Projects</h2>
+        <p class="section-desc">Production-grade full-stack web applications featuring complete REST backends, responsive user interfaces, and generative AI systems.</p>
       </div>
 
       <div class="projects-grid" id="projectsGrid">
-        <!-- Dynamic Projects Cards -->
+        <!-- Rendered dynamically via JS -->
       </div>
     </div>
   </section>
 
-  <!-- Skills & DSA Section -->
-  <section class="section bg-surface" id="skills">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">TECHNICAL PROFICIENCY</span>
-        <h2>Skills & DSA Achievements</h2>
+  <!-- Interactive LeetCode 150+ DSA Solutions Explorer Section -->
+  <section class="section bg-surface" id="dsa">
+    <div class="container">
+      <div class="section-heading-wrap">
+        <span class="section-tag">COMPETITIVE PROGRAMMING</span>
+        <h2>LeetCode 150+ DSA Problem Catalog</h2>
+        <p class="section-desc">Explore verified solutions with optimal time and space complexity, algorithmic intuition, and LeetCode problem mappings.</p>
       </div>
 
-      <div class="skills-wrapper">
-        <div class="skills-column">
-          <h3><i class="fa-solid fa-code"></i> Core Skills</h3>
-          
-          <div class="skill-category">
-            <h4>Languages</h4>
-            <div class="tags-row">
-              <span class="tag">C++</span>
-              <span class="tag">JavaScript (ES6+)</span>
-              <span class="tag">Python</span>
-              <span class="tag">HTML5</span>
-              <span class="tag">CSS3</span>
-              <span class="tag">SQL</span>
-            </div>
-          </div>
-
-          <div class="skill-category">
-            <h4>Frameworks & Backend</h4>
-            <div class="tags-row">
-              <span class="tag">Node.js</span>
-              <span class="tag">Express.js</span>
-              <span class="tag">Tailwind CSS</span>
-              <span class="tag">Bootstrap</span>
-            </div>
-          </div>
-
-          <div class="skill-category">
-            <h4>Databases & Developer Tools</h4>
-            <div class="tags-row">
-              <span class="tag">MongoDB</span>
-              <span class="tag">MySQL</span>
-              <span class="tag">Git</span>
-              <span class="tag">GitHub</span>
-              <span class="tag">VS Code</span>
-            </div>
-          </div>
-
-          <div class="skill-category">
-            <h4>Computer Science Coursework</h4>
-            <div class="tags-row">
-              <span class="tag">Data Structures & Algorithms</span>
-              <span class="tag">Object-Oriented Programming (OOP)</span>
-              <span class="tag">DBMS</span>
-              <span class="tag">Operating Systems</span>
-              <span class="tag">Computer Networks</span>
-            </div>
-          </div>
+      <div class="dsa-controls-row">
+        <div class="dsa-chips-group" id="dsaTopicChips">
+          <!-- Dynamic topic chips: All, Arrays, Two Pointers, Trees, Graphs, DP, Binary Search -->
         </div>
 
-        <div class="dsa-card">
-          <div class="dsa-header">
-            <i class="fa-solid fa-trophy dsa-icon"></i>
-            <div>
-              <h3>LeetCode & DSA Problem Solving</h3>
-              <p>Continuous learning & algorithmic problem solving (200+ Solved, Targeting 300+)</p>
-            </div>
-          </div>
-
-          <div class="dsa-stat-box">
-            <span class="dsa-number">200+</span>
-            <span class="dsa-label">Problems Solved on LeetCode (Targeting 300+)</span>
-          </div>
-
-          <h4>Core DSA Topics Mastered:</h4>
-          <ul class="dsa-topics-list">
-            <li><i class="fa-solid fa-check-double"></i> Arrays & Strings</li>
-            <li><i class="fa-solid fa-check-double"></i> Linked Lists & Stacks/Queues</li>
-            <li><i class="fa-solid fa-check-double"></i> Binary Trees & BST</li>
-            <li><i class="fa-solid fa-check-double"></i> Graph Algorithms (BFS/DFS)</li>
-            <li><i class="fa-solid fa-check-double"></i> Dynamic Programming (DP)</li>
-          </ul>
+        <div class="dsa-search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="dsaSearchInput" placeholder="Search problem (e.g. 3Sum, Invert Tree)...">
         </div>
+      </div>
+
+      <div class="dsa-grid" id="dsaGrid">
+        <!-- Dynamic DSA Problem Cards -->
       </div>
     </div>
   </section>
 
-  <!-- Certifications Section -->
-  <section class="section" id="certifications">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">CREDENTIALS</span>
-        <h2>Certifications</h2>
-      </div>
-
-      <div class="certifications-grid">
-        <div class="cert-card">
-          <i class="fa-solid fa-robot cert-icon"></i>
-          <h3>Full Stack Web Development with Generative AI</h3>
-          <p class="cert-issuer">Udemy / Industry Certification</p>
-          <span class="cert-badge"><i class="fa-solid fa-certificate"></i> Verified Certificate</span>
+  <!-- AI Recruiter Job Fit Evaluator Section -->
+  <section class="section" id="ai-recruiter">
+    <div class="container">
+      <div class="recruiter-box">
+        <div class="recruiter-header">
+          <div class="recruiter-icon"><i class="fa-solid fa-microchip"></i></div>
+          <div>
+            <h2>AI Recruiter Job Fit Evaluator</h2>
+            <p>Paste a job description or role requirements. The GenAI engine will calculate compatibility with Prabhas's skill profile, courses, and project portfolio.</p>
+          </div>
         </div>
 
-        <div class="cert-card">
-          <i class="fa-solid fa-globe cert-icon"></i>
-          <h3>Full Stack Web Development</h3>
-          <p class="cert-issuer">Udemy / Industry Certification</p>
-          <span class="cert-badge"><i class="fa-solid fa-certificate"></i> Verified Certificate</span>
+        <div class="recruiter-input-area">
+          <textarea id="jdInput" rows="4" placeholder="Paste job requirements here: e.g. Looking for a Software Engineer with Node.js, Express, MongoDB, Data Structures, and GenAI experience..."></textarea>
+          <div class="recruiter-actions">
+            <button class="btn btn-primary" id="evaluateJdBtn">
+              <i class="fa-solid fa-bolt"></i> Evaluate Candidate Match
+            </button>
+            <button class="btn btn-secondary btn-sm" id="presetJdBtn">Try Sample Full-Stack SDE Role</button>
+          </div>
         </div>
 
-        <div class="cert-card">
-          <i class="fa-solid fa-cubes cert-icon"></i>
-          <h3>Data Structures and Algorithms (DSA)</h3>
-          <p class="cert-issuer">Udemy</p>
-          <span class="cert-badge"><i class="fa-solid fa-certificate"></i> Verified Certificate</span>
+        <!-- Evaluation Results Display -->
+        <div class="evaluation-result-card" id="evalResultCard" style="display: none;">
+          <div class="match-score-row">
+            <div class="score-dial">
+              <span id="matchPercentNum">96%</span>
+              <span class="score-sub">Match Score</span>
+            </div>
+            <div class="match-meta">
+              <h3>High Compatibility Candidate</h3>
+              <p id="evalTailoredPitch"></p>
+            </div>
+          </div>
+
+          <div class="matching-skills-list">
+            <h4>Matching Technical Competencies:</h4>
+            <div id="matchingSkillsChips" class="skills-tags-row"></div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Contact Form Section -->
-  <section class="section bg-surface" id="contact">
-    <div class="section-container">
-      <div class="section-header">
-        <span class="section-tag">GET IN TOUCH</span>
-        <h2>Contact Me</h2>
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-heading-wrap">
+        <span class="section-tag">COMMUNICATION</span>
+        <h2>Let's Build Something Exceptional</h2>
+        <p class="section-desc">Open to Software Engineering Internships, Full-Time Roles, and Technical Collaborations.</p>
       </div>
 
       <div class="contact-grid">
-        <div class="contact-info">
-          <h3>Let's build something awesome together!</h3>
-          <p>Feel free to reach out for project collaborations, software development roles, or technical discussions.</p>
+        <div class="contact-info-panel">
+          <h3>Contact Details</h3>
+          <p>Feel free to reach out directly through any of the channels below or send a message using the form.</p>
           
-          <div class="contact-details">
-            <div class="contact-item">
-              <i class="fa-solid fa-envelope"></i>
-              <div>
-                <strong>Email</strong>
-                <p>prabhasterli@gmail.com</p>
-              </div>
+          <div class="contact-item">
+            <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <span class="c-label">Email</span>
+              <a href="mailto:prabhasterli@gmail.com" class="c-val">prabhasterli@gmail.com</a>
             </div>
+          </div>
 
-            <div class="contact-item">
-              <i class="fa-solid fa-phone"></i>
-              <div>
-                <strong>Phone</strong>
-                <p>+91-8074811487</p>
-              </div>
+          <div class="contact-item">
+            <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <span class="c-label">Phone</span>
+              <a href="tel:+918074811487" class="c-val">+91-8074811487</a>
             </div>
+          </div>
 
-            <div class="contact-item">
-              <i class="fa-solid fa-location-dot"></i>
-              <div>
-                <strong>Location</strong>
-                <p>NIT Agartala / Vijayawada, India</p>
-              </div>
+          <div class="contact-item">
+            <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <span class="c-label">Location</span>
+              <span class="c-val">Agartala, Tripura / Vijayawada, AP, India</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="c-icon"><i class="fa-brands fa-github"></i></div>
+            <div>
+              <span class="c-label">GitHub</span>
+              <a href="https://github.com/TerliPrabhas" target="_blank" class="c-val">github.com/TerliPrabhas</a>
             </div>
           </div>
         </div>
 
-        <form class="contact-form" id="contactForm">
-          <div class="form-group">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" required placeholder="John Doe">
-          </div>
+        <div class="contact-form-panel">
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Name *</label>
+                <input type="text" id="contactName" placeholder="Recruiter / Collaborator" required>
+              </div>
+              <div class="form-group">
+                <label>Your Email *</label>
+                <input type="email" id="contactEmail" placeholder="team@company.com" required>
+              </div>
+            </div>
 
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" required placeholder="john@example.com">
-          </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="text" id="contactSubject" placeholder="Software Engineering Internship / Full-Time Inquiry">
+            </div>
 
-          <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" placeholder="Project Inquiry / Job Opportunity">
-          </div>
+            <div class="form-group">
+              <label>Message *</label>
+              <textarea id="contactMessage" rows="5" placeholder="Hi Prabhas, we reviewed your projects and would love to connect..." required></textarea>
+            </div>
 
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" rows="5" required placeholder="Write your message here..."></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary submit-btn">
-            <span>Send Message</span>
-            <i class="fa-solid fa-paper-plane"></i>
-          </button>
-        </form>
+            <button type="submit" class="btn btn-primary btn-block" id="sendMsgBtn">
+              <i class="fa-solid fa-paper-plane"></i> Send Direct Message
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   </section>
+
+  <!-- Prabhas AI Clone Floating Drawer -->
+  <div class="ai-drawer-overlay" id="aiDrawerOverlay">
+    <div class="ai-drawer">
+      <div class="ai-drawer-header">
+        <div class="ai-header-info">
+          <div class="ai-avatar">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <div>
+            <h4>Prabhas AI Clone</h4>
+            <span class="ai-status"><span class="pulse-dot"></span> Active &bull; Resume & Portfolio Engine</span>
+          </div>
+        </div>
+        <button class="close-ai-btn" id="closeAiBtn">&times;</button>
+      </div>
+
+      <div class="ai-chat-messages" id="aiChatMessages">
+        <div class="ai-message bot">
+          <div class="message-bubble">
+            <p>👋 Hello! I am the <strong>Prabhas AI Clone</strong>. I have complete access to Prabhas's resume, NIT Agartala coursework (CGPA 8.23), 250+ LeetCode DSA solutions, and full-stack project architectures. How can I assist your team today?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ai-quick-prompts" id="aiQuickPrompts">
+        <button class="prompt-chip" data-prompt="Why should we hire Prabhas?"><i class="fa-solid fa-star"></i> Why hire Prabhas?</button>
+        <button class="prompt-chip" data-prompt="Explain E-Commerce project architecture"><i class="fa-solid fa-cart-shopping"></i> E-Commerce Architecture</button>
+        <button class="prompt-chip" data-prompt="Tell me about his DSA stats"><i class="fa-solid fa-code"></i> DSA Mastery</button>
+        <button class="prompt-chip" data-prompt="How can I contact Prabhas for an interview?"><i class="fa-solid fa-envelope"></i> Interview Contact</button>
+      </div>
+
+      <div class="ai-input-bar">
+        <input type="text" id="aiChatInput" placeholder="Ask anything about Prabhas's skills, projects, or background...">
+        <button id="sendAiBtn" aria-label="Send"><i class="fa-solid fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
 
   <!-- Toast Container -->
   <div class="toast-container" id="toastContainer"></div>
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="footer-container">
-      <p>&copy; 2026 <strong>Terli Jogiswara Prabhas</strong>. All Rights Reserved.</p>
-      <div class="footer-links">
-        <a href="https://github.com/TerliPrabhas" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-        <a href="https://linkedin.com/in/TerliPrabhas" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    <div class="container footer-content">
+      <div class="footer-top">
+        <span class="logo-name">&lt;Prabhas /&gt;</span>
+        <p>Built with Node.js, Express, MongoDB, and integrated Generative AI &bull; NIT Agartala CSE</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Terli Jogiswara Prabhas. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://github.com/TerliPrabhas" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/TerliPrabhas" target="_blank">LinkedIn</a>
+          <a href="mailto:prabhasterli@gmail.com">Email</a>
+        </div>
       </div>
     </div>
   </footer>
