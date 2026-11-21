@@ -4,7 +4,12 @@
 > **Degree:** B.Tech in Computer Science and Engineering, National Institute of Technology, Agartala (NIT Agartala, 2023–2027)  
 > **Academic Standing:** CGPA 8.23  
 > **Contact:** [prabhasterli@gmail.com](mailto:prabhasterli@gmail.com) | +91-8074811487  
-> **Profiles:** [GitHub](https://github.com/TerliPrabhas) | [LinkedIn](https://linkedin.com/in/TerliPrabhas)
+> **Profiles:** [GitHub](https://github.com/TerliPrabhas) | [LinkedIn](https://www.linkedin.com/in/prabhasterli1899/)
+
+
+> **Permanent Live Deployment:** [https://personal-portfolio-website-bw5t.onrender.com](https://personal-portfolio-website-bw5t.onrender.com)  
+> [![Live Demo](https://img.shields.io/badge/Live_Demo-Prabhas_Portfolio-007ACC?style=for-the-badge&logo=render&logoColor=white)](https://personal-portfolio-website-bw5t.onrender.com)
+> [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TerliPrabhas/personal-portfolio-website)
 
 ---
 

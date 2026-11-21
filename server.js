@@ -84,7 +84,7 @@ const projectsData = [
     tech: ["HTML5", "CSS3", "JavaScript", "React Components", "Node.js", "Express.js", "MongoDB", "GenAI"],
     description: "Production-grade full-stack e-commerce web application featuring product search, category filtering, quick-view modals, interactive shopping cart drawer, promo code discounts (PROBO20 for 20% OFF), multi-step checkout, and the Aura AI Shopping Concierge & Review Synthesis engine.",
     github: "https://github.com/TerliPrabhas/ecommerce-web-app",
-    demoUrl: "http://localhost:3001",
+    demoUrl: "https://ecommerce-web-app-rya0.onrender.com",
     featured: true,
     highlights: [
       "Server-side discount calculation and 8% tax processing on Express REST endpoints",
@@ -101,7 +101,7 @@ const projectsData = [
     tech: ["HTML5 Audio API", "Web Audio API", "Canvas 2D", "JavaScript", "Node.js", "Express.js", "GenAI DJ"],
     description: "Futuristic full-stack web music player with complete playback controls (play, pause, seek bar, volume slider), shuffle mode, single-track repeat loop, interactive 60 FPS HTML5 Canvas equalizer spectrum visualizer (Bars, Waveform, Pulse), synchronized live lyrics auto-scroller, and Pulse GenAI DJ Studio.",
     github: "https://github.com/TerliPrabhas/music-player-app",
-    demoUrl: "http://localhost:3002",
+    demoUrl: "https://music-player-app-y8q9.onrender.com",
     featured: true,
     highlights: [
       "Real-time 60 FPS frequency analysis with Web Audio API AnalyserNode and Canvas",
@@ -118,7 +118,7 @@ const projectsData = [
     tech: ["HTML5", "CSS Variables", "JavaScript", "Node.js", "Express.js", "MongoDB", "Prabhas AI Clone"],
     description: "Responsive full-stack portfolio showcasing 250+ DSA problem solutions, NIT Agartala credentials, interactive project cards, typing hero effects, contact API with XSS prevention, and the Prabhas AI Clone Career Assistant & Recruiter Job Fit Evaluator.",
     github: "https://github.com/TerliPrabhas/personal-portfolio-website",
-    demoUrl: "http://localhost:3003",
+    demoUrl: "https://personal-portfolio-website-bw5t.onrender.com",
     featured: true,
     highlights: [
       "Prabhas AI Clone chatbot answering in-depth recruiter inquiries about background and architecture",
